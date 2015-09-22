@@ -1,0 +1,31 @@
+body{
+	background: url(../images/dark_wall.png) repeat;
+	font-family: 'Lato';
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 2em;
+	color: #777777;
+}
+section{
+	padding-top:100px;
+}
+.form-wrapper{
+	padding-left:50px;
+	
+}
+.stong-password{
+	background-color:#CCC;
+	padding:20px;
+	text-align:center;
+}
+input[type="text"],select{
+	width:50px;
+	height:30px;
+	text-align:center;
+}
+label{
+	min-width:80px;
+}
+.field{
+	
+}
