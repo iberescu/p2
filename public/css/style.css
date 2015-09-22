@@ -61,3 +61,9 @@ label{
 	z-index:999;
 	display:none;
 }
+.header{
+	background-color: #CCC;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+}

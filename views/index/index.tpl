@@ -1,3 +1,5 @@
+<div class="header">xkcd Password Generator</div>
+
 <section id="head" class="style4">
 		<div class="container hero">
 			<div class="row">
@@ -21,18 +23,6 @@
 
 
 									</div>
-									<div class="field">
-										<label for="min-length">Min Length</label>
-										<select id="min-length" name="minLength">
-											<option value="10">10</option>
-											<option value="15">15</option>
-											<option value="20" selected="selected">20</option>
-											<option value="25">25</option>
-											<option value="30">30</option>
-											<option value="35">35</option>
-											<option value="40">40</option>
-										</select>
-									</div>
 
 									<div class="field">
 										<label for="separator">Separator</label>
@@ -40,14 +30,18 @@
 									</div>
 
 									<div class="field ">
-										<input type="checkbox" checked="checked" name="firstUpper" id="first-upper">
+										<input type="checkbox" name="firstUpper" id="first-upper">
 										<label for="first-upper">Make First Letter Uppercase</label>
 									</div>
 
 									<div class="field ">
-										<input type="checkbox" checked="checked" name="appendNumbers" id="append-numbers">
-										<label for="append-numbers">Append random number to the end (1 - 10)</label>
+										<input type="checkbox" name="appendNumbers" id="append-numbers">
+										<label for="append-numbers">Add number to the end (1 - 10)</label>
 									</div>
+									<div class="field ">
+										<input type="checkbox" name="addSpecial" id="append-special">
+										<label for="append-numbers">Add special character to the end</label>
+									</div>									
 									<div class="field submit-wrapper">
 										<input type="button" value="Generate" id="generate">
 									</div>
