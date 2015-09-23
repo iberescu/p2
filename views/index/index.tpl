@@ -58,4 +58,4 @@
 			</div>
 		</div>		
 	</div>
-	<div class="wrapper"><div class="wrapper-img"><img src="public/images/password_strength.png" /></div></div>
+	<div class="wrapper"><div class="wrapper-img"><img src="public/images/password_strength.png" alt="password strength" /></div></div>
