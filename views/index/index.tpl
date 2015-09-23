@@ -40,7 +40,7 @@
 									</div>
 									<div class="field ">
 										<input type="checkbox" name="addSpecial" id="append-special">
-										<label for="append-numbers">Add special character to the end</label>
+										<label for="append-special">Add special character to the end</label>
 									</div>									
 
 								</form>
