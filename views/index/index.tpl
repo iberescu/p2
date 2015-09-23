@@ -1,6 +1,6 @@
 <div class="header">xkcd Password Generator</div>
 
-<section id="head" class="style4">
+<div id="head" class="style4">
 		<div class="container hero">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-1">
@@ -57,5 +57,5 @@
 				</div>
 			</div>
 		</div>		
-	</section>
+	</div>
 	<div class="wrapper"></div>

@@ -6,7 +6,7 @@ body{
 	line-height: 2em;
 	color: #777777;
 }
-section{
+#head{
 	padding-top:100px;
 }
 .form-wrapper{
