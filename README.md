@@ -4,7 +4,7 @@
 <http://p2.iberescu.me/>
 
 ## Description
-Project 2 - XKCD Password Generato - CSCI E-15 Dynamic Web Applications - Harvard 2015
+Project 2 - XKCD Password Generator - CSCI E-15 Dynamic Web Applications - Harvard 2015
 
 ## Details for teaching team
 * No login required.
