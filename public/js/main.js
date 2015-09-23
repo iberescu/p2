@@ -4,7 +4,7 @@
 		
 		$('#generate').click(function(){
 			$.ajax({
-			  url: "http://localhost:8080/p2/generate",
+			  url: "/generate",
 			  data: $('#data-wrapper').serialize(),
 			  method: "POST",
 			  dataType: "JSON",
