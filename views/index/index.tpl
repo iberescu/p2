@@ -5,10 +5,10 @@
 			<div class="row">
 				<div class="col-md-12 col-md-offset-1">
 					<div class="row">
-						<div class="col-md-5 form-wrapper">
-								<form id="data-wrapper">
+						<div class="col-md-5">
+								<form id="data-wrapper" class="form-wrapper">
 									<div class="field">
-										<label for="min-words">Min words</label>
+										<label for="min-words">Nr. of words</label>
 										<select id="min-words" name="minWords">
 											<option value="2">2</option>
 											<option value="3">3</option>
@@ -42,14 +42,16 @@
 										<input type="checkbox" name="addSpecial" id="append-special">
 										<label for="append-numbers">Add special character to the end</label>
 									</div>									
-									<div class="field submit-wrapper">
-										<input type="button" value="Generate" id="generate">
-									</div>
+
 								</form>
+								<div class="submit-wrapper">
+									<input type="button" value="Generate" id="generate">
+								</div>								
 	
 						</div>
 						<div class="col-md-7">
 							<div class="stong-password">correct-horse-battery-staple</div>
+							<div><input type="button" value="Copy to clipboard" id="copy-clipboard"></div>
 						</div>
 					</div>
 				</div>

@@ -7,7 +7,23 @@ class Controller_Generate extends Controller {
 	}
 	private function _validate()
 	{
-		
+		$error = 0;
+		if (empty($_POST['separator']))
+		{
+			$error = 'Separator is empty';
+		}
+		if (strlen($_POST['separator']) > 1)
+		{
+			$error = 'Separator can have only 1 character';
+		}
+		if ((int)($_POST['minWords']) > 10 || (int)($_POST['minWords']) < 2)
+		{
+			$error = 'Words value incorrect';
+		}
+		if ($error){
+			echo json_encode(array('error' => $error));
+			exit;
+		} 
 			
 	}
 	private function _loadDatabase()
