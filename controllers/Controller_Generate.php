@@ -37,7 +37,11 @@ class Controller_Generate extends Controller {
 		$selected = array_rand($database,$words_count);
 		for ($i = 0; $i < count($selected); $i ++)
 		{
-			$result[] = trim($database[$selected[$i]]);
+			$value = trim($database[$selected[$i]]);
+			//upercase
+			if (isset($_POST['firstUpper']) && $_POST['firstUpper']) $value = ucwords($value);		
+			
+			$result[] = $value;
 		}
 		return implode($separator,$result);
 	}
@@ -58,9 +62,6 @@ class Controller_Generate extends Controller {
 		
 		//append special char
 		if (isset($_POST['addSpecial']) && $_POST['addSpecial']) $result .= '@';
-
-		//upercase
-		if (isset($_POST['firstUpper']) && $_POST['firstUpper']) $result = ucwords($result);
 		
 		echo json_encode(array('result' => $result));
 		exit;
