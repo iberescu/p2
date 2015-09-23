@@ -8,6 +8,8 @@ Project 2 - XKCD Password Generato - CSCI E-15 Dynamic Web Applications - Harvar
 
 ## Details for teaching team
 No login required.
+Application is build on a custom M-V-C framework (actually just a View-Controller) build from scratch from my understanding of MVC.
+Generation is done using Ajax
 
 ## Outside code
 * Bootstrap: http://getbootstrap.com/
